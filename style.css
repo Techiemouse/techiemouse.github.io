@@ -10,30 +10,64 @@
 
 }
 body{
-  font-family: 'brain_flowerregular';  
+  font-family: 'brain_flowerregular'; 
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+
 }
+
 #menu{
-font-size: 20px;
-    
-     list-style-type: none;  
+    font-size: 20px;
+    list-style-type: none;  
+    position: fixed;
+    margin: 0;  
+   
 }
 
 ul li a {
-text-decoration:none;
+    text-decoration:none;
+    display:block;
+    text-align:center;  
+    border-radius: 50%;
+    line-height:85px;
+    width: 85px;
+    height: 85px; 
+    background-color:  #474843;
+    color: #F8EDD1;
+}
 
+
+p{
+    padding:0px 10% 0px 20%;
 }
 #banner{
+
 font-size: 70px;
+height: 400px;
+background-color: #DCE6DD;
+
 
 }
 
-#info{
+.info{
 
 	opacity: 0.5;
 	margin-top:0px;
  	margin-left: auto; 
     margin-right: auto;
     font-size: 30px;
-   
-
+     
+}
+#line1{
+background-color: #474843;
+height: 20px;
+}
+#line2{
+  background-color: #9D9D93;  
+  height: 20px;
+}
+#cv{
+background-color: #F8EDD1;
+height: 80%;
 }
