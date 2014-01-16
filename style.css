@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'brain_flowerregular';
+    src: url('brain_flower-webfont.eot');
+    src: url('brain_flower-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brain_flower-webfont.woff') format('woff'),
+         url('brain_flower-webfont.ttf') format('truetype'),
+         url('brain_flower-webfont.svg#brain_flowerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+  font-family: 'brain_flowerregular';  
+}
+#menu{
+font-size: 20px;
+    
+     list-style-type: none;  
+}
+
+ul li a {
+text-decoration:none;
+
+}
+#banner{
+font-size: 70px;
+
+}
+
+#info{
+
+	opacity: 0.5;
+	margin-top:0px;
+ 	margin-left: auto; 
+    margin-right: auto;
+    font-size: 30px;
+   
+
+}
