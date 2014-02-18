@@ -17,12 +17,19 @@ body{
 
 }
 
+
+p{
+    padding:0px 10% 0px 20%;
+}
+
 #menu{
     font-size: 20px;
     list-style-type: none;  
     position: fixed;
     margin: 0;  
-   
+    position:relative; 
+    float:left;
+    list-style-type: none;
 }
 
 ul li a {
@@ -37,9 +44,25 @@ ul li a {
     color: #F8EDD1;
 }
 
+#menu li a{
+    display: block; 
+    font-size:19px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
 
-p{
-    padding:0px 10% 0px 20%;
+#menu li:hover ul {
+    display:block;
+}
+
+#menu li ul{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    text-decoration: none;
+    list-style-type: none;
 }
 #banner{
 
@@ -67,7 +90,44 @@ height: 20px;
   background-color: #9D9D93;  
   height: 20px;
 }
-#cv{
+#skills{
 background-color: #F8EDD1;
 height: 80%;
+}
+
+.base{
+    height:17px;
+    width:250px;
+
+   
+border-radius:15px;
+    border: 1px inset ;
+    
+   margin:5px;
+       font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:#DCE6DD; 
+    
+}
+.skill{
+   border-top-left-radius:15px;
+   border-bottom-left-radius:15px;
+   height:17px; 
+   background-color: #474843;
+   padding-left:10px;
+
+}
+#Java{
+    width:70%;
+}
+#c{
+    width:40%;
+}
+#php{
+    width:50%;
+}
+#javascript{
+    width:55%;
+}
+#ruby{  
+    width:40%;
 }
