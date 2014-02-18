@@ -14,20 +14,17 @@ body{
   width: 100%;
   margin: 0;
   padding: 0; 
-
+ 
 }
 
 
-p{
-    padding:0px 10% 0px 20%;
-}
 
 #menu{
     font-size: 20px;
     list-style-type: none;  
     position: fixed;
     margin: 0;  
-    position:relative; 
+    
     float:left;
     list-style-type: none;
 }
@@ -69,42 +66,41 @@ ul li a {
 font-size: 70px;
 height: 400px;
 background-color: #DCE6DD;
-
+padding:0px 10% 0px 20%;
 
 }
 
 .info{
 
-	opacity: 0.5;
 	margin-top:0px;
  	margin-left: auto; 
-    margin-right: auto;
-    font-size: 30px;
+  margin-right: auto;
+  font-size: 30px;
      
 }
 #line1{
 background-color: #474843;
-height: 20px;
+height: 15px;
 }
 #line2{
   background-color: #9D9D93;  
-  height: 20px;
+  height: 15px;
 }
 #skills{
 background-color: #F8EDD1;
 height: 80%;
+padding:20px 10% 0px 20%;
 }
 
-.base{
-    height:17px;
-    width:250px;
 
-   
-border-radius:15px;
-    border: 1px inset ;
-    
-   margin:5px;
-       font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+.base{
+
+    height:17px;
+    width:250px;   
+    border-radius:15px;
+    border: 1px inset ;  
+    margin-bottom:5px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color:#DCE6DD; 
     
 }
@@ -112,7 +108,7 @@ border-radius:15px;
    border-top-left-radius:15px;
    border-bottom-left-radius:15px;
    height:17px; 
-   background-color: #474843;
+   background-color:  #9D9D93;
    padding-left:10px;
 
 }
@@ -130,4 +126,18 @@ border-radius:15px;
 }
 #ruby{  
     width:40%;
+}
+#photo{
+
+font-size: 70px;
+height: 90%;
+background-color: #DCE6DD;
+padding:20px 10% 0px 20%;
+}
+#contact{
+
+font-size: 70px;
+height: 50%;
+background-color: #9D9D93;
+padding:20px 10% 0px 20%;
 }
