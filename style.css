@@ -87,9 +87,14 @@ height: 15px;
   height: 15px;
 }
 #skills{
+height: 90%;
 background-color: #F8EDD1;
-height: 80%;
 padding:20px 10% 0px 20%;
+}
+
+#compskills{
+float:left;
+
 }
 
 
@@ -97,21 +102,23 @@ padding:20px 10% 0px 20%;
 
     height:17px;
     width:250px;   
-    border-radius:15px;
-    border: 1px inset ;  
+    border-radius:5px;
+    border: 1px inset;  
     margin-bottom:5px;
     font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color:#DCE6DD; 
+    color:#F8EDD1; 
     
 }
 .skill{
-   border-top-left-radius:15px;
-   border-bottom-left-radius:15px;
+
+   border-top-left-radius:5px;
+   border-bottom-left-radius:5px;
    height:17px; 
    background-color:  #9D9D93;
    padding-left:10px;
 
 }
+
 #Java{
     width:70%;
 }
@@ -124,9 +131,29 @@ padding:20px 10% 0px 20%;
 #javascript{
     width:55%;
 }
-#ruby{  
-    width:40%;
+#ruby{
+    width:50%;
 }
+
+#designskills{
+float:right;
+  
+}
+
+#html{  
+    width:70%;
+}
+#photoshop{
+    width:80%;
+}
+#illustrator{
+    width:50%;
+}
+#cms{
+    width:55%;
+}
+
+
 #photo{
 
 font-size: 70px;
@@ -137,7 +164,59 @@ padding:20px 10% 0px 20%;
 #contact{
 
 font-size: 70px;
-height: 50%;
+height: 180px;
 background-color: #9D9D93;
 padding:20px 10% 0px 20%;
+
+
+}
+#contact p{
+
+ color: #DCE6DD;
+}
+#twitter{
+width:45px;
+height:45px;
+background-image: url("twitter45.png");
+float: left;
+background-repeat: no-repeat;
+ 
+}
+
+
+#instagram {
+width:45px;
+height:45px;
+float:left;
+background-image: url("insta45.png");
+background-repeat: no-repeat;
+}
+#linkedin {
+width:45px;
+  height:45px;
+  float:left;
+background-image: url("linkedin45.png");
+background-repeat: no-repeat;
+}
+#email{
+width:45px;
+  height:45px;
+  float:left;
+background-image: url("email45.png");
+background-repeat: no-repeat;
+}
+#github{
+width:45px;
+  height:45px;
+  float:left;
+background-image: url("github45.png");
+background-repeat: no-repeat;
+}
+
+#photo li{
+height:193px;
+list-style: none;
+text-decoration: none;
+display:inline;
+background-color: grey;
 }
