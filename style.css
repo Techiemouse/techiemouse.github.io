@@ -120,16 +120,19 @@ float:left;
 }
 
 #Java{
-    width:70%;
+    width:80%;
 }
 #c{
     width:40%;
+}
+#mysql{
+  width:65%;
 }
 #php{
     width:50%;
 }
 #javascript{
-    width:55%;
+    width:65%;
 }
 #ruby{
     width:50%;
@@ -141,16 +144,16 @@ float:right;
 }
 
 #html{  
-    width:70%;
+    width:75%;
 }
 #photoshop{
-    width:80%;
+    width:85%;
 }
 #illustrator{
     width:50%;
 }
 #cms{
-    width:55%;
+    width:65%;
 }
 
 
